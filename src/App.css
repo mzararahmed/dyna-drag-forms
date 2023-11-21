@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* App.css */
+
+/* Center the content vertically */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style for draggable fields */
+.draggable-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  cursor: grab;
+}
+
+/* Style for droppable area */
+.droppable-area {
+  padding: 20px;
+  border: 2px dashed #999;
+  background-color: #e0e0e0;
+  min-height: 200px;
+}
+
+/* Style for the main container */
+.dnd-container {
+  width: 80vw;
+  max-width: 800px; /* Optional: Set a maximum width */
+  margin: 0 auto;
+}
+
+/* Style for the submit button */
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
